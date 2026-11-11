@@ -1,0 +1,1483 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "CurbRamps",
+  "type": "Feature Layer",
+  "serviceItemId": "8f223d469c004eb6bd11c6f4441097ab",
+  "cacheMaxAge": 30,
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "CurbRampID",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": 1794389762270,
+    "schemaLastEditDate": 1794389762270,
+    "dataLastEditDate": 1794389762270
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "VAR_SAMP",
+      "VAR_POP",
+      "STDDEV",
+      "STDDEV_SAMP",
+      "STDDEV_POP",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": 1666165.5399304777,
+    "ymin": 599515.1701243073,
+    "xmax": 1805125.7298573107,
+    "ymax": 727682.4564401507,
+    "spatialReference": {
+      "wkid": 102736,
+      "latestWkid": 2274
+    }
+  },
+  "spatialReference": {
+    "wkid": 102736,
+    "latestWkid": 2274
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+          150,
+          110,
+          54,
+          255
+        ],
+        "size": 4,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "outline": {
+          "color": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "width": 0.7
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": false,
+  "viewSourceHasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "GlobalID",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "Object ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Unique system-generated record identifier for each curb ramp feature.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "CurbRampID",
+      "type": "esriFieldTypeInteger",
+      "alias": "Curb Ramp ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Unique curb ramp identifier assigned to each ramp record.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "DateAudited",
+      "type": "esriFieldTypeDate",
+      "alias": "Date Audited",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Date the curb ramp was originally audited.\",\"fieldValueType\":\"dateAndTime\"}",
+      "precision": 1
+    },
+    {
+      "name": "DateReAudited",
+      "type": "esriFieldTypeDate",
+      "alias": "Date Reaudited",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Date the curb ramp was re-audited or re-inspected.\",\"fieldValueType\":\"dateAndTime\"}",
+      "precision": 1
+    },
+    {
+      "name": "LocationX",
+      "type": "esriFieldTypeDouble",
+      "alias": "Location X",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"X coordinate of the curb ramp location.\",\"fieldValueType\":\"coordinate\"}"
+    },
+    {
+      "name": "LocationY",
+      "type": "esriFieldTypeDouble",
+      "alias": "Location Y",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Y coordinate of the curb ramp location.\",\"fieldValueType\":\"coordinate\"}"
+    },
+    {
+      "name": "ProjectType",
+      "type": "esriFieldTypeString",
+      "alias": "Project Type",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "PWProjectType",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Project Type",
+        "codedValues": [
+          {
+            "name": "Construction",
+            "code": "CONST"
+          },
+          {
+            "name": "Infrastructure",
+            "code": "INFRA"
+          },
+          {
+            "name": "Other",
+            "code": "OTHER"
+          },
+          {
+            "name": "Paving",
+            "code": "PAV"
+          },
+          {
+            "name": "Replacement",
+            "code": "REP"
+          },
+          {
+            "name": "Ramp Permit",
+            "code": "RMPR"
+          },
+          {
+            "name": "Subdivision",
+            "code": "SBDIV"
+          },
+          {
+            "name": "Sidewalk",
+            "code": "SW"
+          },
+          {
+            "name": "Unknown",
+            "code": "UNKNOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Type of project associated with the curb ramp, such as construction, paving, replacement, or sidewalk work.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "OnStreet",
+      "type": "esriFieldTypeString",
+      "alias": "On Street",
+      "sqlType": "sqlTypeOther",
+      "length": 100,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Street where the curb ramp is located.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+    },
+    {
+      "name": "FromStreet",
+      "type": "esriFieldTypeString",
+      "alias": "From Street",
+      "sqlType": "sqlTypeOther",
+      "length": 100,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Cross street or starting street reference for the curb ramp location.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+    },
+    {
+      "name": "ToStreet",
+      "type": "esriFieldTypeString",
+      "alias": "To Street",
+      "sqlType": "sqlTypeOther",
+      "length": 100,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Cross street or ending street reference for the curb ramp location.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+    },
+    {
+      "name": "Side",
+      "type": "esriFieldTypeString",
+      "alias": "Side",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "StreetSide",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Side of Street",
+        "codedValues": [
+          {
+            "name": "North",
+            "code": "N"
+          },
+          {
+            "name": "South",
+            "code": "S"
+          },
+          {
+            "name": "East",
+            "code": "E"
+          },
+          {
+            "name": "West",
+            "code": "W"
+          },
+          {
+            "name": "Northeast",
+            "code": "NE"
+          },
+          {
+            "name": "Northwest",
+            "code": "NW"
+          },
+          {
+            "name": "Southeast",
+            "code": "SE"
+          },
+          {
+            "name": "Southwest",
+            "code": "SW"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Side of the street where the curb ramp is located.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "CouncilDistrict",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Council District",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"City council district containing the curb ramp.\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "ServiceDistrict",
+      "type": "esriFieldTypeString",
+      "alias": "Service District",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Service district containing the curb ramp, such as USD or GSD.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "Zone",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Zone",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Operational zone assigned to the curb ramp location.\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "Material",
+      "type": "esriFieldTypeString",
+      "alias": "Material",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "DrivewayTieMaterial",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Type of Material",
+        "codedValues": [
+          {
+            "name": "Asphalt",
+            "code": "ASPHALT"
+          },
+          {
+            "name": "Brick",
+            "code": "BRICK"
+          },
+          {
+            "name": "Concrete",
+            "code": "CONCRETE"
+          },
+          {
+            "name": "NA",
+            "code": "NA"
+          },
+          {
+            "name": "Other",
+            "code": "OTHER"
+          },
+          {
+            "name": "Unknown",
+            "code": "UNKNOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Primary material of the curb ramp or tie-in surface.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "StandardID",
+      "type": "esriFieldTypeString",
+      "alias": "Standard ID",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Curb ramp design standard or standard reference ID used for the feature.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "ConformID",
+      "type": "esriFieldTypeString",
+      "alias": "Conform ID",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Conform_ID",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Conform to Standards",
+        "codedValues": [
+          {
+            "name": "Yes",
+            "code": "YES"
+          },
+          {
+            "name": "No",
+            "code": "NO"
+          },
+          {
+            "name": "Maximum Extent Feasible",
+            "code": "MAX_EXT_FEASIBLE"
+          },
+          {
+            "name": "Technically Infeasible",
+            "code": "TECH_INFEASIBLE"
+          },
+          {
+            "name": "Unknown",
+            "code": "UNKNOWN"
+          },
+          {
+            "name": "No Ramp",
+            "code": "NO RAMP"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Indicates whether the curb ramp conforms to accessibility standards, or why it does not.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "ConformExplain",
+      "type": "esriFieldTypeString",
+      "alias": "Conform Explain",
+      "sqlType": "sqlTypeOther",
+      "length": 1073741822,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Text explanation for nonconformance or accessibility exceptions.\",\"fieldValueType\":\"description\"}"
+    },
+    {
+      "name": "FlushMountID",
+      "type": "esriFieldTypeString",
+      "alias": "Flush Mount ID",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "FlushMountID",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Flush Mount at Curb",
+        "codedValues": [
+          {
+            "name": "Less than 1/4 inch",
+            "code": "LESS_1_4_INCH"
+          },
+          {
+            "name": "Greater than 1/4 inch",
+            "code": "GREATER_1_4_INCH"
+          },
+          {
+            "name": "Beveled",
+            "code": "BEVELED"
+          },
+          {
+            "name": "Unknown",
+            "code": "UNKNOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Flush-mount condition at the curb, based on the vertical edge height or edge treatment.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "DetectableWarning",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Detectable Warning",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Indicates whether a detectable warning surface is present at the curb ramp.\",\"fieldValueType\":\"binary\"}"
+    },
+    {
+      "name": "HasLeftSlope",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Has Left Slope",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Indicates whether a left-side slope measurement was recorded for the curb ramp.\",\"fieldValueType\":\"binary\"}"
+    },
+    {
+      "name": "LeftSlope",
+      "type": "esriFieldTypeDouble",
+      "alias": "Left Slope",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured slope value for the left side of the curb ramp.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "LeftSlopeDir",
+      "type": "esriFieldTypeString",
+      "alias": "Left Slope Direction",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "SlopeDirection",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Slope Direction",
+        "codedValues": [
+          {
+            "name": "Left",
+            "code": "LEFT"
+          },
+          {
+            "name": "Right",
+            "code": "RIGHT"
+          },
+          {
+            "name": "Up",
+            "code": "UP"
+          },
+          {
+            "name": "Down",
+            "code": "DOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Direction of the left-side slope, such as left, right, up, or down.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "LeftSlopeLength",
+      "type": "esriFieldTypeDouble",
+      "alias": "Left Slope Length",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured length of the left-side slope in feet.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "HasRightSlope",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Has Right Slope",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Indicates whether a right-side slope measurement was recorded for the curb ramp.\",\"fieldValueType\":\"binary\"}"
+    },
+    {
+      "name": "RightSlope",
+      "type": "esriFieldTypeDouble",
+      "alias": "Right Slope",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured slope value for the right side of the curb ramp.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "RightSlopeDir",
+      "type": "esriFieldTypeString",
+      "alias": "Right Slope Direction",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "SlopeDirection",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Slope Direction",
+        "codedValues": [
+          {
+            "name": "Left",
+            "code": "LEFT"
+          },
+          {
+            "name": "Right",
+            "code": "RIGHT"
+          },
+          {
+            "name": "Up",
+            "code": "UP"
+          },
+          {
+            "name": "Down",
+            "code": "DOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Direction of the right-side slope, such as left, right, up, or down.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "RightSlopeLength",
+      "type": "esriFieldTypeDouble",
+      "alias": "Right Slope Length",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured length of the right-side slope in feet.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "HasLandingSlope",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Has Landing Slope",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Indicates whether a landing slope measurement was recorded for the curb ramp.\",\"fieldValueType\":\"binary\"}"
+    },
+    {
+      "name": "HorLandSlope1",
+      "type": "esriFieldTypeDouble",
+      "alias": "Horizontal Landing Slope 1",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured value for the first horizontal landing slope on the curb ramp.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "HorLandSlope1Dir",
+      "type": "esriFieldTypeString",
+      "alias": "Horizontal Landing Slope 1 Direction",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "SlopeDirection",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Slope Direction",
+        "codedValues": [
+          {
+            "name": "Left",
+            "code": "LEFT"
+          },
+          {
+            "name": "Right",
+            "code": "RIGHT"
+          },
+          {
+            "name": "Up",
+            "code": "UP"
+          },
+          {
+            "name": "Down",
+            "code": "DOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Direction of the first horizontal landing slope, such as left, right, up, or down.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "HorLandSlope2",
+      "type": "esriFieldTypeDouble",
+      "alias": "Horizontal Landing Slope 2",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured value for the second horizontal landing slope on the curb ramp.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "HorLandSlope2Dir",
+      "type": "esriFieldTypeString",
+      "alias": "Horizontal Landing Slope 2 Direction",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "SlopeDirection",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Slope Direction",
+        "codedValues": [
+          {
+            "name": "Left",
+            "code": "LEFT"
+          },
+          {
+            "name": "Right",
+            "code": "RIGHT"
+          },
+          {
+            "name": "Up",
+            "code": "UP"
+          },
+          {
+            "name": "Down",
+            "code": "DOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Direction of the second horizontal landing slope, such as left, right, up, or down.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "VerLandSlope1",
+      "type": "esriFieldTypeDouble",
+      "alias": "Vertical Landing Slope 1",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured value for the first vertical landing slope on the curb ramp.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "VerLandSlope1Dir",
+      "type": "esriFieldTypeString",
+      "alias": "Vertical Landing Slope 1 Direction",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "SlopeDirection",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Slope Direction",
+        "codedValues": [
+          {
+            "name": "Left",
+            "code": "LEFT"
+          },
+          {
+            "name": "Right",
+            "code": "RIGHT"
+          },
+          {
+            "name": "Up",
+            "code": "UP"
+          },
+          {
+            "name": "Down",
+            "code": "DOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Direction of the first vertical landing slope, such as up or down.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "VerLandSlope2",
+      "type": "esriFieldTypeDouble",
+      "alias": "Vertical Landing Slope 2",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured value for the second vertical landing slope on the curb ramp.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "VerLandSlope2Dir",
+      "type": "esriFieldTypeString",
+      "alias": "Vertical Landing Slope 2 Direction",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "SlopeDirection",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Slope Direction",
+        "codedValues": [
+          {
+            "name": "Left",
+            "code": "LEFT"
+          },
+          {
+            "name": "Right",
+            "code": "RIGHT"
+          },
+          {
+            "name": "Up",
+            "code": "UP"
+          },
+          {
+            "name": "Down",
+            "code": "DOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Direction of the second vertical landing slope, such as up or down.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "LandSlopeWidth",
+      "type": "esriFieldTypeDouble",
+      "alias": "Land Slope Width",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured width of the landing slope area in feet.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "LandSlopeLength",
+      "type": "esriFieldTypeDouble",
+      "alias": "Land Slope Length",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured length of the landing slope area in feet.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "HasPerpSlope",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Has Perpendicular Slope",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Indicates whether a perpendicular slope measurement was recorded for the curb ramp.\",\"fieldValueType\":\"binary\"}"
+    },
+    {
+      "name": "PerpSlope1",
+      "type": "esriFieldTypeDouble",
+      "alias": "Perpendicular Slope 1",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured slope percentage or grade for the first perpendicular ramp section.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "PerpSlope1Dir",
+      "type": "esriFieldTypeString",
+      "alias": "Perpendicular Slope 1 Direction",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "SlopeDirection",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Slope Direction",
+        "codedValues": [
+          {
+            "name": "Left",
+            "code": "LEFT"
+          },
+          {
+            "name": "Right",
+            "code": "RIGHT"
+          },
+          {
+            "name": "Up",
+            "code": "UP"
+          },
+          {
+            "name": "Down",
+            "code": "DOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Compass direction associated with the first perpendicular slope measurement.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "PerpSlope2",
+      "type": "esriFieldTypeDouble",
+      "alias": "Perpendicular Slope 2",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured slope percentage or grade for the second perpendicular ramp section.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "PerpSlope2Dir",
+      "type": "esriFieldTypeString",
+      "alias": "Perpendicular Slope 2 Direction",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "SlopeDirection",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Slope Direction",
+        "codedValues": [
+          {
+            "name": "Left",
+            "code": "LEFT"
+          },
+          {
+            "name": "Right",
+            "code": "RIGHT"
+          },
+          {
+            "name": "Up",
+            "code": "UP"
+          },
+          {
+            "name": "Down",
+            "code": "DOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Compass direction associated with the second perpendicular slope measurement.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "PerpSlopeWidth",
+      "type": "esriFieldTypeDouble",
+      "alias": "Perpendicular Slope Width",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Width of the perpendicular slope section, in feet.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "PerpSlopeLength",
+      "type": "esriFieldTypeDouble",
+      "alias": "Perpendicular Slope Length",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Length of the perpendicular slope section, in feet.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "HasApproachSlope",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Has Approach Slope",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Indicates whether the curb ramp has an approach slope.\",\"fieldValueType\":\"binary\"}"
+    },
+    {
+      "name": "ApproachSlope",
+      "type": "esriFieldTypeDouble",
+      "alias": "Approach Slope",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Measured slope percentage or grade of the approach ramp section.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "ApproachSlopeDir",
+      "type": "esriFieldTypeString",
+      "alias": "Approach Slope Direction",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "SlopeDirection",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Slope Direction",
+        "codedValues": [
+          {
+            "name": "Left",
+            "code": "LEFT"
+          },
+          {
+            "name": "Right",
+            "code": "RIGHT"
+          },
+          {
+            "name": "Up",
+            "code": "UP"
+          },
+          {
+            "name": "Down",
+            "code": "DOWN"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Compass direction associated with the approach slope measurement.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "ApproachSlopeLength",
+      "type": "esriFieldTypeDouble",
+      "alias": "Approach Slope Length",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Length of the approach slope section, in feet.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "ArrowDirID",
+      "type": "esriFieldTypeString",
+      "alias": "Arrow Direction ID",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "StreetSide",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Side of Street",
+        "codedValues": [
+          {
+            "name": "North",
+            "code": "N"
+          },
+          {
+            "name": "South",
+            "code": "S"
+          },
+          {
+            "name": "East",
+            "code": "E"
+          },
+          {
+            "name": "West",
+            "code": "W"
+          },
+          {
+            "name": "Northeast",
+            "code": "NE"
+          },
+          {
+            "name": "Northwest",
+            "code": "NW"
+          },
+          {
+            "name": "Southeast",
+            "code": "SE"
+          },
+          {
+            "name": "Southwest",
+            "code": "SW"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Compass direction the curb ramp arrow points or the side of street associated with the ramp.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "AdditionalInformation",
+      "type": "esriFieldTypeString",
+      "alias": "Additional Information",
+      "sqlType": "sqlTypeOther",
+      "length": 1073741822,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Free-text notes with additional observations, exceptions, or field comments about the curb ramp.\",\"fieldValueType\":\"description\"}"
+    },
+    {
+      "name": "GlobalID",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "Global ID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"System-generated unique identifier for the curb ramp record.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "AssetID",
+      "type": "esriFieldTypeString",
+      "alias": "Asset ID",
+      "sqlType": "sqlTypeOther",
+      "length": 30,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Municipal asset identifier for the curb ramp.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__CURBRAMP__F4B70D85B1B9A34E",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_8986.CURBRAMPS_CURBRAMPS_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "FDO_GlobalID",
+      "fields": "GlobalID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "CurbRamps",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPoint",
+      "prototype": {
+        "attributes": {
+          "AssetID": null,
+          "RepairDate": null,
+          "CurbRampID": null,
+          "DateAudited": null,
+          "DateReAudited": null,
+          "LocationX": null,
+          "LocationY": null,
+          "ProjectType": null,
+          "OnStreet": null,
+          "FromStreet": null,
+          "ToStreet": null,
+          "Side": null,
+          "CouncilDistrict": null,
+          "ServiceDistrict": null,
+          "Zone": null,
+          "Material": null,
+          "StandardID": null,
+          "ConformID": null,
+          "ConformExplain": null,
+          "FlushMountID": null,
+          "DetectableWarning": null,
+          "HasLeftSlope": null,
+          "LeftSlope": null,
+          "LeftSlopeDir": null,
+          "LeftSlopeLength": null,
+          "HasRightSlope": null,
+          "RightSlope": null,
+          "RightSlopeDir": null,
+          "RightSlopeLength": null,
+          "HasLandingSlope": null,
+          "HorLandSlope1": null,
+          "HorLandSlope1Dir": null,
+          "HorLandSlope2": null,
+          "HorLandSlope2Dir": null,
+          "VerLandSlope1": null,
+          "VerLandSlope1Dir": null,
+          "VerLandSlope2": null,
+          "VerLandSlope2Dir": null,
+          "LandSlopeWidth": null,
+          "LandSlopeLength": null,
+          "HasPerpSlope": null,
+          "PerpSlope1": null,
+          "PerpSlope1Dir": null,
+          "PerpSlope2": null,
+          "PerpSlope2Dir": null,
+          "PerpSlopeWidth": null,
+          "PerpSlopeLength": null,
+          "PerpSlopeSide": null,
+          "HasApproachSlope": null,
+          "ApproachSlope": null,
+          "ApproachSlopeDir": null,
+          "ApproachSlopeLength": null,
+          "ArrowDirID": null,
+          "AdditionalInformation": null,
+          "created_user": null,
+          "created_date": null,
+          "last_edited_user": null,
+          "last_edited_date": null,
+          "ADAStatus": null,
+          "ConformStatus": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel,parquet",
+  "supportedConvertFileFormats": "JSON,PBF,Parquet",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportsEditingContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 49412,
+  "hasStaticData": true,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 16000,
+  "maxIdsCount": 100000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}

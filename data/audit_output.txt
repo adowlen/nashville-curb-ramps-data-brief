@@ -1,0 +1,257 @@
+ROWS 18388
+OBJECTID unique 18388
+CurbRampID unique 18156 (duplicates exist, so OBJECTID is the row key)
+GlobalID unique 18388
+COUNTER ConformID n_unique=13
+  'YES': 8568
+  'NO': 3212
+  'MAX_EXT_FEASIBLE': 1864
+  'TECH_INFEASIBLE': 1005
+  'NO RAMP': 867
+  'No': 823
+  'Maximum Extent Feasible': 561
+  'Yes': 535
+  'Unknown': 353
+  'Technically Infeasable': 221
+  '': 168
+  'UNKNOWN': 117
+  'No Ramp': 94
+COUNTER ProjectType n_unique=10
+  'SW': 7236
+  'SBDIV': 4099
+  'CONST': 3499
+  '': 966
+  'UNKNOWN': 924
+  'PAV': 911
+  'OTHER': 355
+  'REP': 309
+  'RMPR': 66
+  'INFRA': 23
+COUNTER Material n_unique=12
+  'CONCRETE': 16596
+  'NA': 880
+  'Concrete': 734
+  'OTHER': 90
+  'UNKNOWN': 25
+  'BRICK': 17
+  'Unknown': 15
+  'Other': 13
+  '': 10
+  'Asphalt': 4
+  'ASPHALT': 2
+  'Brick': 2
+COUNTER StandardID n_unique=23
+  'ST-320': 9690
+  'ST-321': 3867
+  '': 1858
+  'ST-302': 1494
+  'ST-301': 526
+  'UNKNOWN': 208
+  'ST-304': 188
+  'OTHER': 173
+  'ST-303': 116
+  'ST-305': 87
+  'ST-300': 46
+  'ST-329': 23
+  'MM-CR-8': 19
+  'ST-330': 18
+  'ST-307': 17
+  'RP-H-7': 16
+  'MM-CR-5': 15
+  'MM-CR-9': 6
+  'MM-CR-1': 6
+  'MM-CR-6': 6
+  'MM-CR-7': 4
+  'MM-CR-4': 4
+  'RP-H-5': 1
+COUNTER FlushMountID n_unique=19
+  'LESS_1_4_INCH': 15776
+  '': 1403
+  'GREATER_1_4_INCH': 449
+  '> 1/4"': 274
+  ' ': 241
+  '<= 1/4"': 111
+  'BEVELED': 50
+  'UNKNOWN': 50
+  '0': 7
+  'B': 6
+  'Less than 1/4"': 4
+  'less than 1/4': 4
+  'no': 3
+  'nearly 3/4"': 2
+  '1': 2
+  '<1/4"': 2
+  'less than 1/4"': 2
+  '<.25"': 1
+  'damaged': 1
+COUNTER Side n_unique=19
+  'NE': 3414
+  'NW': 3380
+  'SE': 3306
+  'SW': 3303
+  'S': 1043
+  'N': 987
+  'E': 982
+  'W': 973
+  '': 953
+  'UNKNOWN': 19
+  'NA': 15
+  'south': 3
+  'Wyoming Ave': 2
+  'Idaho Ave ': 2
+  'west': 2
+  'Wyoming Ave ': 1
+  'East': 1
+  'Right side of South 5th': 1
+  'West': 1
+COUNTER ServiceDistrict n_unique=5
+  'USD': 13043
+  'GSD': 4410
+  '': 932
+  'USD ': 2
+  'GSD ': 1
+COUNTER Zone n_unique=6
+  '5': 5173
+  '2': 4370
+  '4': 4147
+  '1': 2006
+  '3': 1656
+  '': 1036
+COUNTER CouncilDistrict n_unique=37
+  '19': 2212
+  '21': 1376
+  '17': 979
+  '6': 975
+  '31': 952
+  '5': 904
+  '': 861
+  '33': 816
+  '18': 752
+  '11': 704
+  '24': 640
+  '35': 539
+  '4': 524
+  '32': 482
+  '12': 453
+  '2': 444
+  '15': 359
+  '14': 348
+  '8': 336
+  '7': 335
+  '16': 322
+  '25': 319
+  '28': 315
+  '22': 301
+  '3': 299
+  '20': 298
+  '9': 239
+  '26': 231
+  '29': 222
+  '13': 197
+  '1': 159
+  '27': 152
+  '34': 123
+  '30': 110
+  '10': 59
+  '23': 48
+  '0': 3
+COUNTER DetectableWarning n_unique=3
+  '0': 9702
+  '1': 8056
+  '': 630
+COUNTER HasLeftSlope n_unique=3
+  '1': 12568
+  '0': 5051
+  '': 769
+COUNTER HasRightSlope n_unique=3
+  '1': 12529
+  '0': 5094
+  '': 765
+COUNTER HasLandingSlope n_unique=10
+  '1': 16536
+  '0': 1056
+  '': 740
+  '2': 44
+  '3': 4
+  '7': 3
+  '6': 2
+  '10': 1
+  '4': 1
+  '5': 1
+COUNTER HasPerpSlope n_unique=3
+  '1': 15753
+  '': 1972
+  '0': 663
+COUNTER HasApproachSlope n_unique=3
+  '0': 13197
+  '1': 3136
+  '': 2055
+COUNTER ConformExplain n_unique=2855 top30:
+  '': 7063
+  ' ': 3144
+  'Landing Exceeds 2%': 556
+  'Ramp To Street Exceeds 8.3% Due To Steep Grade Of Street': 382
+  'Left Ramp Constructed >8Ft To Overcome Steep Slope': 329
+  'Right Ramp Constructed >8Ft To Overcome Steep Slope': 274
+  'Ramp To Street Exceeds 8.3% And Is <8Ft': 266
+  ' no detectable warning ': 265
+  'Landing > 2%': 156
+  ' .': 131
+  'Landing Is <5Ft': 126
+  'Flush Mount Is >1/4"': 90
+  'n/a': 80
+  '. ': 71
+  'Approach Ramp Constructed >8Ft To Overcome Steep Slope': 70
+  '.': 70
+  'Ramp To Street Constructed >8Ft To Overcome Steep Slope': 58
+  'Left Ramp Exceeds 8.3% And Is <8Ft': 56
+  'Ramp To Street Exceeds 8.3%': 55
+  'Landing Is <5Ft Due To Row Restrictions': 54
+  'Left And Right Ramps Constructed >8Ft To Overcome Steep Slope': 52
+  'no detectable warning ': 52
+  'Landing Exceeds 2%. Ramp To Street Exceeds 8.3% And Is <8Ft': 51
+  'Right Ramp Exceeds 8.3% And Is <8Ft': 47
+  'Unknown ': 47
+  'Unknown. ': 44
+  ' No detectable warning ': 42
+  ' No detectable warning': 41
+  'Ramp To Street > 8.3%': 40
+  'Ti Due To Steep Roadway': 35
+DATES DateAudited present=17664 missing=724 min=1998-07-09 max=2025-05-06
+  sentinel check: year<1990=0 raw 0/negative=0
+  DateAudited year census {1998: 5, 1999: 10, 2000: 193, 2001: 256, 2002: 346, 2003: 639, 2004: 656, 2005: 1223, 2006: 430, 2007: 314, 2008: 191, 2009: 539, 2010: 132, 2011: 249, 2012: 169, 2013: 18, 2014: 130, 2015: 834, 2016: 53, 2017: 60, 2018: 120, 2019: 919, 2020: 2214, 2021: 2, 2022: 51, 2023: 7899, 2024: 10, 2025: 2}
+DATES DateReAudited present=1338 missing=17050 min=2022-07-04 max=2024-05-27
+  sentinel check: year<1990=0 raw 0/negative=0
+  DateReAudited year census {2022: 6, 2023: 1314, 2024: 18}
+NUMERIC LeftSlope present=17342 missing=1046 zero=4724 negative=0 min=0.0 max=307.0
+  values over 30: 7 (flagged as recorded extremes; no slope figure in the brief rests on the tail)
+NUMERIC RightSlope present=17354 missing=1034 zero=4756 negative=0 min=0.0 max=146.0
+  values over 30: 5 (flagged as recorded extremes; no slope figure in the brief rests on the tail)
+NUMERIC HorLandSlope1 present=17478 missing=910 zero=1110 negative=0 min=0.0 max=52.4
+  values over 30: 1 (flagged as recorded extremes; no slope figure in the brief rests on the tail)
+NUMERIC HorLandSlope2 present=17559 missing=829 zero=1148 negative=0 min=0.0 max=33.7
+  values over 30: 1 (flagged as recorded extremes; no slope figure in the brief rests on the tail)
+NUMERIC VerLandSlope1 present=17560 missing=828 zero=1066 negative=0 min=0.0 max=19.4
+  values over 30: 0 (flagged as recorded extremes; no slope figure in the brief rests on the tail)
+NUMERIC VerLandSlope2 present=17560 missing=828 zero=1055 negative=0 min=0.0 max=111.2
+  values over 30: 1 (flagged as recorded extremes; no slope figure in the brief rests on the tail)
+NUMERIC PerpSlope1 present=16415 missing=1973 zero=719 negative=0 min=0.0 max=142.4
+  values over 30: 8 (flagged as recorded extremes; no slope figure in the brief rests on the tail)
+NUMERIC PerpSlope2 present=16414 missing=1974 zero=703 negative=0 min=0.0 max=739.0
+  values over 30: 12 (flagged as recorded extremes; no slope figure in the brief rests on the tail)
+NUMERIC ApproachSlope present=16330 missing=2058 zero=13015 negative=0 min=0.0 max=29.8
+  values over 30: 0 (flagged as recorded extremes; no slope figure in the brief rests on the tail)
+NUMERIC LandSlopeWidth present=17539 missing=849 zero=757 negative=0 min=0.0 max=55.0
+  values over 30: 1 (flagged as recorded extremes; no slope figure in the brief rests on the tail)
+NUMERIC LandSlopeLength present=17536 missing=852 zero=743 negative=0 min=0.0 max=29.5
+  values over 30: 0 (flagged as recorded extremes; no slope figure in the brief rests on the tail)
+DETECTABLEWARNING counter {'0': 9702, '1': 8056, '': 630}; coded base (0 or 1) = 17758; blank excluded from every DetectableWarning share
+POLARITY SAMPLE matched (normalized ConformID = Yes, first 3): [('1', 'YES', '33', 'LESS_1_4_INCH'), ('2', 'YES', '33', 'LESS_1_4_INCH'), ('3', 'YES', '33', 'LESS_1_4_INCH')]
+POLARITY SAMPLE excluded (normalized ConformID != Yes, first 3): [('65', 'MAX_EXT_FEASIBLE', '11', 'LESS_1_4_INCH'), ('67', 'TECH_INFEASIBLE', '11', 'LESS_1_4_INCH'), ('69', 'MAX_EXT_FEASIBLE', '11', 'LESS_1_4_INCH')]
+CONFORM normalized counter: {'Yes': 9103, 'Maximum Extent Feasible': 2425, 'Technically Infeasible': 1226, 'Unknown': 470, 'No': 4035, 'No Ramp': 961, 'Blank': 168}
+UNKNOWN EXCLUSION: conformance-determined (Yes/No/Maximum Extent Feasible/Technically Infeasible) 16789 + not-determined-or-no-ramp (No Ramp/Unknown/Blank) 1599 = 18388 OK. Unknown and Blank are carried on the full denominator in headline shares; No Ramp is printed as its own category, never merged into No.
+UNIT AGREEMENT: every share in this package divides ramp records by ramp records on a printed base (all 18,388 records, the district-known base, an audit-era base, or the DetectableWarning-coded base). No length, area, or population denominator is used anywhere, and no rate per resident or per intersection is computed - the layer carries no such denominator.
+CONTROL district totals: sum of CouncilDistrict counter = 18388 = rows 18388 OK; district values n_unique=37 (1-35 plus 0 on 3 records and blank on 861)
+CONTROL landing max (Hor/Ver landing slopes) over 2.0: Yes base/over/share = (9077, 629, 6.9); No base/over/share = (3993, 1705, 42.7)
+CONTROL perpendicular max (PerpSlope1/2) over 8.3: Yes base/over/share = (8706, 291, 3.3); No base/over/share = (3808, 1090, 28.6)
+JOIN: no spatial or relational join performed. The sidewalk comparison uses only figures published in the 2026-11-10 sidewalks brief (same CouncilDistrict geography, printed with that brief's bases); the crash comparison is not attempted at district level for the same crosswalk reason recorded in that brief.

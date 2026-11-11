@@ -1,0 +1,144 @@
+{
+  "checks": [
+    {
+      "check": "rows",
+      "got": 18388,
+      "want": 18388,
+      "pass": true
+    },
+    {
+      "check": "server_count_live",
+      "got": 18388,
+      "want": 18388,
+      "pass": true
+    },
+    {
+      "check": "conform_Yes",
+      "got": 9103,
+      "want": 9103,
+      "pass": true
+    },
+    {
+      "check": "conform_No",
+      "got": 4035,
+      "want": 4035,
+      "pass": true
+    },
+    {
+      "check": "conform_Maximum Extent Feasible",
+      "got": 2425,
+      "want": 2425,
+      "pass": true
+    },
+    {
+      "check": "conform_Technically Infeasible",
+      "got": 1226,
+      "want": 1226,
+      "pass": true
+    },
+    {
+      "check": "conform_No Ramp",
+      "got": 961,
+      "want": 961,
+      "pass": true
+    },
+    {
+      "check": "conform_Unknown",
+      "got": 470,
+      "want": 470,
+      "pass": true
+    },
+    {
+      "check": "conform_Blank",
+      "got": 168,
+      "want": 168,
+      "pass": true
+    },
+    {
+      "check": "yes_pct",
+      "got": 49.5,
+      "want": 49.5,
+      "pass": true
+    },
+    {
+      "check": "determined_n",
+      "got": 16789,
+      "want": 16789,
+      "pass": true
+    },
+    {
+      "check": "district_known_n",
+      "got": 17524,
+      "want": 17524,
+      "pass": true
+    },
+    {
+      "check": "district19_n",
+      "got": 2212,
+      "want": 2212,
+      "pass": true
+    },
+    {
+      "check": "district19_no",
+      "got": 610,
+      "want": 610,
+      "pass": true
+    },
+    {
+      "check": "district18_yes_pct",
+      "got": 36.3,
+      "want": 36.3,
+      "pass": true
+    },
+    {
+      "check": "district11_no_ramp",
+      "got": 134,
+      "want": 134,
+      "pass": true
+    },
+    {
+      "check": "dw_one_n",
+      "got": 8056,
+      "want": 8056,
+      "pass": true
+    },
+    {
+      "check": "dw_coded_n",
+      "got": 17758,
+      "want": 17758,
+      "pass": true
+    },
+    {
+      "check": "reaudited_n",
+      "got": 1338,
+      "want": 1338,
+      "pass": true
+    },
+    {
+      "check": "no_ramp_project_unknown",
+      "got": 876,
+      "want": 876,
+      "pass": true
+    },
+    {
+      "check": "audited_2023_n",
+      "got": 7899,
+      "want": 7899,
+      "pass": true
+    },
+    {
+      "check": "control_no_landing_over2",
+      "got": 1705,
+      "want": 1705,
+      "pass": true
+    },
+    {
+      "check": "control_yes_landing_over2",
+      "got": 629,
+      "want": 629,
+      "pass": true
+    }
+  ],
+  "pass": 23,
+  "total": 23
+}

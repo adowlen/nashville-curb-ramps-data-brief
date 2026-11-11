@@ -1,0 +1,7 @@
+{
+  "source": "https://services2.arcgis.com/HdTo6HJqh92wn4D8/arcgis/rest/services/Curb_Ramps_view/FeatureServer/0/query",
+  "server_count": 18388,
+  "rows": 18388,
+  "fields": "*",
+  "pull_date": "2026-11-11"
+}
