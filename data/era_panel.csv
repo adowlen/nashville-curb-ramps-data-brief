@@ -1,0 +1,5 @@
+audit_era,records,yes_n,yes_pct,no_n,no_pct,max_extent_feasible_n,technically_infeasible_n,no_ramp_n,unknown_n,blank_n
+Audited before 2010,4802,3048,63.5,672,14.0,669,360,0,52,1
+Audited 2010-2019,2684,1460,54.4,783,29.2,287,135,0,19,0
+Audited 2020-2026,10178,4592,45.1,2575,25.3,1469,731,343,389,79
+No audit date,724,3,0.4,5,0.7,0,0,618,10,88
