@@ -1,0 +1,2 @@
+9,103 of Nashville's 18,388 audited curb-ramp records (49.5%) are recorded Yes (conforming) - 4,035 are recorded No, and 961 records describe a location with no ramp
+Source line: Metro Nashville Curb Ramps (Curb_Ramps_view) - 18,388 records pulled Nov 11, 2026 | Machine Readable

@@ -1,0 +1,827 @@
+{
+  "dataset": "Nashville Curb Ramps (Curb_Ramps_view, layer 0)",
+  "snapshot_date": "2026-11-11",
+  "rows": 18388,
+  "unit": "one row = one audited curb-ramp record as served by the view",
+  "server_count": 18388,
+  "conform_raw_counter": {
+    "YES": 8568,
+    "NO": 3212,
+    "MAX_EXT_FEASIBLE": 1864,
+    "TECH_INFEASIBLE": 1005,
+    "NO RAMP": 867,
+    "No": 823,
+    "Maximum Extent Feasible": 561,
+    "Yes": 535,
+    "Unknown": 353,
+    "Technically Infeasable": 221,
+    "": 168,
+    "UNKNOWN": 117,
+    "No Ramp": 94
+  },
+  "conform_counter": {
+    "Yes": 9103,
+    "No": 4035,
+    "Maximum Extent Feasible": 2425,
+    "Technically Infeasible": 1226,
+    "No Ramp": 961,
+    "Unknown": 470,
+    "Blank": 168
+  },
+  "conform_pct": {
+    "Yes": 49.5,
+    "No": 21.9,
+    "Maximum Extent Feasible": 13.2,
+    "Technically Infeasible": 6.7,
+    "No Ramp": 5.2,
+    "Unknown": 2.6,
+    "Blank": 0.9
+  },
+  "conform_determined_n": 16789,
+  "yes_pct_of_determined": 54.2,
+  "not_yes_n": 9285,
+  "not_yes_pct": 50.5,
+  "district_known_n": 17524,
+  "district_excluded_n": 864,
+  "districts_with_ramps": 35,
+  "by_district": {
+    "1": {
+      "n": 159,
+      "Yes_n": 102,
+      "No_n": 22,
+      "Maximum Extent Feasible_n": 18,
+      "Technically Infeasible_n": 12,
+      "No Ramp_n": 2,
+      "Unknown_n": 2,
+      "Blank_n": 1,
+      "yes_pct": 64.2,
+      "no_pct": 13.8,
+      "no_ramp_pct": 1.3,
+      "small_base_flag": false
+    },
+    "2": {
+      "n": 444,
+      "Yes_n": 204,
+      "No_n": 97,
+      "Maximum Extent Feasible_n": 69,
+      "Technically Infeasible_n": 51,
+      "No Ramp_n": 17,
+      "Unknown_n": 4,
+      "Blank_n": 2,
+      "yes_pct": 45.9,
+      "no_pct": 21.8,
+      "no_ramp_pct": 3.8,
+      "small_base_flag": false
+    },
+    "3": {
+      "n": 299,
+      "Yes_n": 201,
+      "No_n": 42,
+      "Maximum Extent Feasible_n": 20,
+      "Technically Infeasible_n": 13,
+      "No Ramp_n": 18,
+      "Unknown_n": 5,
+      "Blank_n": 0,
+      "yes_pct": 67.2,
+      "no_pct": 14.0,
+      "no_ramp_pct": 6.0,
+      "small_base_flag": false
+    },
+    "4": {
+      "n": 524,
+      "Yes_n": 252,
+      "No_n": 101,
+      "Maximum Extent Feasible_n": 82,
+      "Technically Infeasible_n": 63,
+      "No Ramp_n": 21,
+      "Unknown_n": 5,
+      "Blank_n": 0,
+      "yes_pct": 48.1,
+      "no_pct": 19.3,
+      "no_ramp_pct": 4.0,
+      "small_base_flag": false
+    },
+    "5": {
+      "n": 904,
+      "Yes_n": 385,
+      "No_n": 260,
+      "Maximum Extent Feasible_n": 117,
+      "Technically Infeasible_n": 65,
+      "No Ramp_n": 61,
+      "Unknown_n": 7,
+      "Blank_n": 9,
+      "yes_pct": 42.6,
+      "no_pct": 28.8,
+      "no_ramp_pct": 6.7,
+      "small_base_flag": false
+    },
+    "6": {
+      "n": 975,
+      "Yes_n": 447,
+      "No_n": 230,
+      "Maximum Extent Feasible_n": 122,
+      "Technically Infeasible_n": 58,
+      "No Ramp_n": 38,
+      "Unknown_n": 78,
+      "Blank_n": 2,
+      "yes_pct": 45.8,
+      "no_pct": 23.6,
+      "no_ramp_pct": 3.9,
+      "small_base_flag": false
+    },
+    "7": {
+      "n": 335,
+      "Yes_n": 162,
+      "No_n": 69,
+      "Maximum Extent Feasible_n": 66,
+      "Technically Infeasible_n": 23,
+      "No Ramp_n": 9,
+      "Unknown_n": 0,
+      "Blank_n": 6,
+      "yes_pct": 48.4,
+      "no_pct": 20.6,
+      "no_ramp_pct": 2.7,
+      "small_base_flag": false
+    },
+    "8": {
+      "n": 336,
+      "Yes_n": 192,
+      "No_n": 38,
+      "Maximum Extent Feasible_n": 45,
+      "Technically Infeasible_n": 29,
+      "No Ramp_n": 29,
+      "Unknown_n": 3,
+      "Blank_n": 0,
+      "yes_pct": 57.1,
+      "no_pct": 11.3,
+      "no_ramp_pct": 8.6,
+      "small_base_flag": false
+    },
+    "9": {
+      "n": 239,
+      "Yes_n": 148,
+      "No_n": 45,
+      "Maximum Extent Feasible_n": 14,
+      "Technically Infeasible_n": 7,
+      "No Ramp_n": 13,
+      "Unknown_n": 6,
+      "Blank_n": 6,
+      "yes_pct": 61.9,
+      "no_pct": 18.8,
+      "no_ramp_pct": 5.4,
+      "small_base_flag": false
+    },
+    "10": {
+      "n": 59,
+      "Yes_n": 33,
+      "No_n": 12,
+      "Maximum Extent Feasible_n": 5,
+      "Technically Infeasible_n": 4,
+      "No Ramp_n": 4,
+      "Unknown_n": 0,
+      "Blank_n": 1,
+      "yes_pct": 55.9,
+      "no_pct": 20.3,
+      "no_ramp_pct": 6.8,
+      "small_base_flag": false
+    },
+    "11": {
+      "n": 704,
+      "Yes_n": 280,
+      "No_n": 189,
+      "Maximum Extent Feasible_n": 58,
+      "Technically Infeasible_n": 36,
+      "No Ramp_n": 134,
+      "Unknown_n": 4,
+      "Blank_n": 3,
+      "yes_pct": 39.8,
+      "no_pct": 26.8,
+      "no_ramp_pct": 19.0,
+      "small_base_flag": false
+    },
+    "12": {
+      "n": 453,
+      "Yes_n": 225,
+      "No_n": 130,
+      "Maximum Extent Feasible_n": 58,
+      "Technically Infeasible_n": 29,
+      "No Ramp_n": 7,
+      "Unknown_n": 4,
+      "Blank_n": 0,
+      "yes_pct": 49.7,
+      "no_pct": 28.7,
+      "no_ramp_pct": 1.5,
+      "small_base_flag": false
+    },
+    "13": {
+      "n": 197,
+      "Yes_n": 103,
+      "No_n": 37,
+      "Maximum Extent Feasible_n": 19,
+      "Technically Infeasible_n": 15,
+      "No Ramp_n": 17,
+      "Unknown_n": 1,
+      "Blank_n": 5,
+      "yes_pct": 52.3,
+      "no_pct": 18.8,
+      "no_ramp_pct": 8.6,
+      "small_base_flag": false
+    },
+    "14": {
+      "n": 348,
+      "Yes_n": 170,
+      "No_n": 43,
+      "Maximum Extent Feasible_n": 86,
+      "Technically Infeasible_n": 25,
+      "No Ramp_n": 19,
+      "Unknown_n": 5,
+      "Blank_n": 0,
+      "yes_pct": 48.9,
+      "no_pct": 12.4,
+      "no_ramp_pct": 5.5,
+      "small_base_flag": false
+    },
+    "15": {
+      "n": 359,
+      "Yes_n": 236,
+      "No_n": 57,
+      "Maximum Extent Feasible_n": 36,
+      "Technically Infeasible_n": 15,
+      "No Ramp_n": 10,
+      "Unknown_n": 5,
+      "Blank_n": 0,
+      "yes_pct": 65.7,
+      "no_pct": 15.9,
+      "no_ramp_pct": 2.8,
+      "small_base_flag": false
+    },
+    "16": {
+      "n": 322,
+      "Yes_n": 167,
+      "No_n": 37,
+      "Maximum Extent Feasible_n": 27,
+      "Technically Infeasible_n": 14,
+      "No Ramp_n": 32,
+      "Unknown_n": 45,
+      "Blank_n": 0,
+      "yes_pct": 51.9,
+      "no_pct": 11.5,
+      "no_ramp_pct": 9.9,
+      "small_base_flag": false
+    },
+    "17": {
+      "n": 979,
+      "Yes_n": 443,
+      "No_n": 191,
+      "Maximum Extent Feasible_n": 180,
+      "Technically Infeasible_n": 74,
+      "No Ramp_n": 52,
+      "Unknown_n": 34,
+      "Blank_n": 5,
+      "yes_pct": 45.3,
+      "no_pct": 19.5,
+      "no_ramp_pct": 5.3,
+      "small_base_flag": false
+    },
+    "18": {
+      "n": 752,
+      "Yes_n": 273,
+      "No_n": 209,
+      "Maximum Extent Feasible_n": 171,
+      "Technically Infeasible_n": 63,
+      "No Ramp_n": 33,
+      "Unknown_n": 3,
+      "Blank_n": 0,
+      "yes_pct": 36.3,
+      "no_pct": 27.8,
+      "no_ramp_pct": 4.4,
+      "small_base_flag": false
+    },
+    "19": {
+      "n": 2212,
+      "Yes_n": 1154,
+      "No_n": 610,
+      "Maximum Extent Feasible_n": 218,
+      "Technically Infeasible_n": 111,
+      "No Ramp_n": 74,
+      "Unknown_n": 43,
+      "Blank_n": 2,
+      "yes_pct": 52.2,
+      "no_pct": 27.6,
+      "no_ramp_pct": 3.3,
+      "small_base_flag": false
+    },
+    "20": {
+      "n": 298,
+      "Yes_n": 178,
+      "No_n": 66,
+      "Maximum Extent Feasible_n": 29,
+      "Technically Infeasible_n": 7,
+      "No Ramp_n": 15,
+      "Unknown_n": 3,
+      "Blank_n": 0,
+      "yes_pct": 59.7,
+      "no_pct": 22.1,
+      "no_ramp_pct": 5.0,
+      "small_base_flag": false
+    },
+    "21": {
+      "n": 1376,
+      "Yes_n": 574,
+      "No_n": 320,
+      "Maximum Extent Feasible_n": 257,
+      "Technically Infeasible_n": 133,
+      "No Ramp_n": 57,
+      "Unknown_n": 26,
+      "Blank_n": 9,
+      "yes_pct": 41.7,
+      "no_pct": 23.3,
+      "no_ramp_pct": 4.1,
+      "small_base_flag": false
+    },
+    "22": {
+      "n": 301,
+      "Yes_n": 150,
+      "No_n": 58,
+      "Maximum Extent Feasible_n": 29,
+      "Technically Infeasible_n": 15,
+      "No Ramp_n": 31,
+      "Unknown_n": 0,
+      "Blank_n": 18,
+      "yes_pct": 49.8,
+      "no_pct": 19.3,
+      "no_ramp_pct": 10.3,
+      "small_base_flag": false
+    },
+    "23": {
+      "n": 48,
+      "Yes_n": 26,
+      "No_n": 15,
+      "Maximum Extent Feasible_n": 5,
+      "Technically Infeasible_n": 1,
+      "No Ramp_n": 0,
+      "Unknown_n": 1,
+      "Blank_n": 0,
+      "yes_pct": 54.2,
+      "no_pct": 31.2,
+      "no_ramp_pct": 0.0,
+      "small_base_flag": false
+    },
+    "24": {
+      "n": 640,
+      "Yes_n": 318,
+      "No_n": 123,
+      "Maximum Extent Feasible_n": 82,
+      "Technically Infeasible_n": 50,
+      "No Ramp_n": 47,
+      "Unknown_n": 10,
+      "Blank_n": 10,
+      "yes_pct": 49.7,
+      "no_pct": 19.2,
+      "no_ramp_pct": 7.3,
+      "small_base_flag": false
+    },
+    "25": {
+      "n": 319,
+      "Yes_n": 157,
+      "No_n": 76,
+      "Maximum Extent Feasible_n": 44,
+      "Technically Infeasible_n": 24,
+      "No Ramp_n": 15,
+      "Unknown_n": 3,
+      "Blank_n": 0,
+      "yes_pct": 49.2,
+      "no_pct": 23.8,
+      "no_ramp_pct": 4.7,
+      "small_base_flag": false
+    },
+    "26": {
+      "n": 231,
+      "Yes_n": 161,
+      "No_n": 30,
+      "Maximum Extent Feasible_n": 21,
+      "Technically Infeasible_n": 12,
+      "No Ramp_n": 1,
+      "Unknown_n": 5,
+      "Blank_n": 1,
+      "yes_pct": 69.7,
+      "no_pct": 13.0,
+      "no_ramp_pct": 0.4,
+      "small_base_flag": false
+    },
+    "27": {
+      "n": 152,
+      "Yes_n": 79,
+      "No_n": 16,
+      "Maximum Extent Feasible_n": 31,
+      "Technically Infeasible_n": 4,
+      "No Ramp_n": 11,
+      "Unknown_n": 0,
+      "Blank_n": 11,
+      "yes_pct": 52.0,
+      "no_pct": 10.5,
+      "no_ramp_pct": 7.2,
+      "small_base_flag": false
+    },
+    "28": {
+      "n": 315,
+      "Yes_n": 195,
+      "No_n": 34,
+      "Maximum Extent Feasible_n": 37,
+      "Technically Infeasible_n": 17,
+      "No Ramp_n": 26,
+      "Unknown_n": 6,
+      "Blank_n": 0,
+      "yes_pct": 61.9,
+      "no_pct": 10.8,
+      "no_ramp_pct": 8.3,
+      "small_base_flag": false
+    },
+    "29": {
+      "n": 222,
+      "Yes_n": 156,
+      "No_n": 26,
+      "Maximum Extent Feasible_n": 16,
+      "Technically Infeasible_n": 14,
+      "No Ramp_n": 4,
+      "Unknown_n": 5,
+      "Blank_n": 1,
+      "yes_pct": 70.3,
+      "no_pct": 11.7,
+      "no_ramp_pct": 1.8,
+      "small_base_flag": false
+    },
+    "30": {
+      "n": 110,
+      "Yes_n": 60,
+      "No_n": 22,
+      "Maximum Extent Feasible_n": 14,
+      "Technically Infeasible_n": 7,
+      "No Ramp_n": 0,
+      "Unknown_n": 3,
+      "Blank_n": 4,
+      "yes_pct": 54.5,
+      "no_pct": 20.0,
+      "no_ramp_pct": 0.0,
+      "small_base_flag": false
+    },
+    "31": {
+      "n": 952,
+      "Yes_n": 492,
+      "No_n": 240,
+      "Maximum Extent Feasible_n": 124,
+      "Technically Infeasible_n": 85,
+      "No Ramp_n": 9,
+      "Unknown_n": 2,
+      "Blank_n": 0,
+      "yes_pct": 51.7,
+      "no_pct": 25.2,
+      "no_ramp_pct": 0.9,
+      "small_base_flag": false
+    },
+    "32": {
+      "n": 482,
+      "Yes_n": 260,
+      "No_n": 85,
+      "Maximum Extent Feasible_n": 66,
+      "Technically Infeasible_n": 54,
+      "No Ramp_n": 8,
+      "Unknown_n": 4,
+      "Blank_n": 5,
+      "yes_pct": 53.9,
+      "no_pct": 17.6,
+      "no_ramp_pct": 1.7,
+      "small_base_flag": false
+    },
+    "33": {
+      "n": 816,
+      "Yes_n": 473,
+      "No_n": 160,
+      "Maximum Extent Feasible_n": 89,
+      "Technically Infeasible_n": 51,
+      "No Ramp_n": 34,
+      "Unknown_n": 9,
+      "Blank_n": 0,
+      "yes_pct": 58.0,
+      "no_pct": 19.6,
+      "no_ramp_pct": 4.2,
+      "small_base_flag": false
+    },
+    "34": {
+      "n": 123,
+      "Yes_n": 56,
+      "No_n": 39,
+      "Maximum Extent Feasible_n": 9,
+      "Technically Infeasible_n": 7,
+      "No Ramp_n": 6,
+      "Unknown_n": 4,
+      "Blank_n": 2,
+      "yes_pct": 45.5,
+      "no_pct": 31.7,
+      "no_ramp_pct": 4.9,
+      "small_base_flag": false
+    },
+    "35": {
+      "n": 539,
+      "Yes_n": 249,
+      "No_n": 117,
+      "Maximum Extent Feasible_n": 63,
+      "Technically Infeasible_n": 13,
+      "No Ramp_n": 93,
+      "Unknown_n": 4,
+      "Blank_n": 0,
+      "yes_pct": 46.2,
+      "no_pct": 21.7,
+      "no_ramp_pct": 17.3,
+      "small_base_flag": false
+    }
+  },
+  "eras": {
+    "Audited before 2010": {
+      "n": 4802,
+      "Yes_n": 3048,
+      "No_n": 672,
+      "Maximum Extent Feasible_n": 669,
+      "Technically Infeasible_n": 360,
+      "No Ramp_n": 0,
+      "Unknown_n": 52,
+      "Blank_n": 1,
+      "yes_pct": 63.5,
+      "no_pct": 14.0
+    },
+    "Audited 2010-2019": {
+      "n": 2684,
+      "Yes_n": 1460,
+      "No_n": 783,
+      "Maximum Extent Feasible_n": 287,
+      "Technically Infeasible_n": 135,
+      "No Ramp_n": 0,
+      "Unknown_n": 19,
+      "Blank_n": 0,
+      "yes_pct": 54.4,
+      "no_pct": 29.2
+    },
+    "Audited 2020-2026": {
+      "n": 10178,
+      "Yes_n": 4592,
+      "No_n": 2575,
+      "Maximum Extent Feasible_n": 1469,
+      "Technically Infeasible_n": 731,
+      "No Ramp_n": 343,
+      "Unknown_n": 389,
+      "Blank_n": 79,
+      "yes_pct": 45.1,
+      "no_pct": 25.3
+    },
+    "No audit date": {
+      "n": 724,
+      "Yes_n": 3,
+      "No_n": 5,
+      "Maximum Extent Feasible_n": 0,
+      "Technically Infeasible_n": 0,
+      "No Ramp_n": 618,
+      "Unknown_n": 10,
+      "Blank_n": 88,
+      "yes_pct": 0.4,
+      "no_pct": 0.7
+    }
+  },
+  "audit_year_counter": {
+    "1998": 5,
+    "1999": 10,
+    "2000": 193,
+    "2001": 256,
+    "2002": 346,
+    "2003": 639,
+    "2004": 656,
+    "2005": 1223,
+    "2006": 430,
+    "2007": 314,
+    "2008": 191,
+    "2009": 539,
+    "2010": 132,
+    "2011": 249,
+    "2012": 169,
+    "2013": 18,
+    "2014": 130,
+    "2015": 834,
+    "2016": 53,
+    "2017": 60,
+    "2018": 120,
+    "2019": 919,
+    "2020": 2214,
+    "2021": 2,
+    "2022": 51,
+    "2023": 7899,
+    "2024": 10,
+    "2025": 2
+  },
+  "audit_2023": {
+    "n": 7899,
+    "share_of_all_pct": 43.0,
+    "top_districts": [
+      [
+        "19",
+        2043
+      ],
+      [
+        "21",
+        1220
+      ],
+      [
+        "17",
+        866
+      ],
+      [
+        "",
+        853
+      ],
+      [
+        "6",
+        778
+      ],
+      [
+        "5",
+        738
+      ]
+    ]
+  },
+  "dateaudited_range": [
+    "1998-07-09",
+    "2025-05-06"
+  ],
+  "dateaudited_present_n": 17664,
+  "datereaudited_n": 1338,
+  "datereaudited_range": [
+    "2022-07-04",
+    "2024-05-27"
+  ],
+  "reaudit_conform": {
+    "Yes": 642,
+    "No": 420,
+    "Maximum Extent Feasible": 135,
+    "Technically Infeasible": 72,
+    "No Ramp": 48,
+    "Unknown": 17,
+    "Blank": 4
+  },
+  "detectable_warning": {
+    "counter": {
+      "0": 9702,
+      "1": 8056,
+      "blank": 630
+    },
+    "coded_n": 17758,
+    "one_pct_of_coded": 45.4,
+    "by_conform": {
+      "Yes": {
+        "n": 9103,
+        "coded_n": 9100,
+        "one_n": 4632,
+        "one_pct_of_coded": 50.9
+      },
+      "No": {
+        "n": 4035,
+        "coded_n": 4034,
+        "one_n": 1485,
+        "one_pct_of_coded": 36.8
+      },
+      "Maximum Extent Feasible": {
+        "n": 2425,
+        "coded_n": 2425,
+        "one_n": 1051,
+        "one_pct_of_coded": 43.3
+      },
+      "Technically Infeasible": {
+        "n": 1226,
+        "coded_n": 1226,
+        "one_n": 537,
+        "one_pct_of_coded": 43.8
+      },
+      "No Ramp": {
+        "n": 961,
+        "coded_n": 342,
+        "one_n": 7,
+        "one_pct_of_coded": 2.0
+      },
+      "Unknown": {
+        "n": 470,
+        "coded_n": 470,
+        "one_n": 203,
+        "one_pct_of_coded": 43.2
+      },
+      "Blank": {
+        "n": 168,
+        "coded_n": 161,
+        "one_n": 141,
+        "one_pct_of_coded": 87.6
+      }
+    }
+  },
+  "no_explain_top": [
+    [
+      "Landing Exceeds 2%",
+      544
+    ],
+    [
+      "Ramp To Street Exceeds 8.3% And Is <8Ft",
+      259
+    ],
+    [
+      "no detectable warning",
+      207
+    ],
+    [
+      "Landing > 2%",
+      154
+    ],
+    [
+      "",
+      128
+    ],
+    [
+      "Landing Is <5Ft",
+      126
+    ],
+    [
+      "Flush Mount Is >1/4\"",
+      87
+    ],
+    [
+      "Left Ramp Exceeds 8.3% And Is <8Ft",
+      56
+    ],
+    [
+      "Ramp To Street Exceeds 8.3%",
+      53
+    ],
+    [
+      "Landing Exceeds 2%. Ramp To Street Exceeds 8.3% And Is <8Ft",
+      50
+    ],
+    [
+      "Right Ramp Exceeds 8.3% And Is <8Ft",
+      45
+    ],
+    [
+      "No detectable warning",
+      43
+    ]
+  ],
+  "conform_explain_blankish_n": 10479,
+  "no_ramp_profile": {
+    "n": 961,
+    "dated_n": 343,
+    "project_unknown_n": 876,
+    "dw_blank_n": 619,
+    "dw_one_n": 7
+  },
+  "controls_slope": {
+    "landing_over_2pct": {
+      "Yes": {
+        "base_n": 9077,
+        "over_n": 629,
+        "over_pct": 6.9
+      },
+      "No": {
+        "base_n": 3993,
+        "over_n": 1705,
+        "over_pct": 42.7
+      }
+    },
+    "perp_over_8_3pct": {
+      "Yes": {
+        "base_n": 8706,
+        "over_n": 291,
+        "over_pct": 3.3
+      },
+      "No": {
+        "base_n": 3808,
+        "over_n": 1090,
+        "over_pct": 28.6
+      }
+    }
+  },
+  "controls_flush_mount": {
+    "Yes": {
+      "n": 9103,
+      "less_1_4_code_n": 8663,
+      "greater_1_4_code_n": 49
+    },
+    "No": {
+      "n": 4035,
+      "less_1_4_code_n": 3351,
+      "greater_1_4_code_n": 364
+    }
+  },
+  "comparison_published": {
+    "sidewalks_2026_11_10": {
+      "segments": 14938,
+      "poor_district11_pct": 30.7,
+      "poor_district11_n": 175,
+      "poor_district11_base": 570,
+      "district21_poor_n": 212,
+      "repo": "https://github.com/adowlen/nashville-sidewalks-data-brief"
+    }
+  }
+}
